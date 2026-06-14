@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -73,6 +74,11 @@ const projects = [
     tag: "Infraestrutura Pública",
     title: "Sistemas de Licitações",
     desc: "Entrega de sistemas críticos com regras legais complexas e múltiplas integrações estaduais.",
+    details: [
+      "Desafios do projeto incluíam prazo fixo para entrada em produção, necessidade de rápida compreensão da Lei 8.666 e alinhamento entre múltiplos stakeholders com diferentes expectativas. Além disso, havia a complexidade de mapear integrações com outros sistemas do estado e garantir consistência das informações.",
+      "Para lidar com esse cenário, atuei na organização e priorização das demandas, estruturação clara dos requisitos e alinhamento contínuo com stakeholders e equipe técnica, garantindo entendimento comum e foco nas entregas críticas.",
+      "Como resultado, o projeto foi conduzido dentro do prazo previsto, com aderência às regras legais e integração com sistemas essenciais, assegurando a entrega do produto conforme as necessidades do cliente.",
+    ],
   },
   {
     tag: "Mobile · Fiscalização",
