@@ -113,6 +113,14 @@ const projects = [
     tag: "Search · BI",
     title: "Busca + Dashboards Analíticos",
     desc: "Modernização de busca de processos e criação de dashboards executivos.",
+    details: [
+      "Em um projeto de sistema de gestão de processos digitais, o cliente solicitou a melhoria da funcionalidade de busca de processos judiciais e a criação de dashboards para apoio à tomada de decisão, incluindo suporte a apresentações para a alta gestão.",
+      "Ao ingressar no projeto, identifiquei que tanto eu quanto o time de desenvolvimento éramos novos no sistema, o que aumentava a complexidade e o risco da entrega. Além disso, a solução de busca existente utilizava uma versão antiga do Apache Solr, tecnologia desconhecida pela equipe naquele momento.",
+      "Atuei como ponte entre o cliente e o time técnico, conduzindo o entendimento do funcionamento atual da busca e apoiando a tradução das necessidades de negócio para a equipe de desenvolvimento.",
+      "Em conjunto com um desenvolvedor, realizamos uma análise técnica da solução e identificamos a dependência de uma tecnologia legada (Apache Solr), sem conhecimento interno consolidado. Diante disso, propus a capacitação do time como medida essencial para viabilizar a evolução da solução.",
+      "Articulei com a liderança a contratação e realização de treinamento específico e garanti o envolvimento dos desenvolvedores na capacitação, promovendo o alinhamento técnico necessário para evolução sustentável do sistema.",
+      "A equipe passou a dominar a tecnologia envolvida, permitindo a evolução da busca de processos com ganhos de performance e usabilidade. Além disso, foram entregues dashboards gerenciais que atenderam às necessidades do cliente, apoiando a tomada de decisão da alta gestão e ampliando o valor do sistema.",
+    ],
   },
 ];
 
