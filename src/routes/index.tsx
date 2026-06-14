@@ -289,7 +289,7 @@ function Portfolio() {
               ◦ 03 — Contexto
             </div>
             <h2 className="font-display text-4xl md:text-5xl leading-tight">
-              Ambientes de alta complexidade
+              Atuação em ambientes de alta complexidade
             </h2>
           </div>
           <div className="md:col-span-8">
