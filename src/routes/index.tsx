@@ -90,7 +90,13 @@ const projects = [
     title: "Central de Atendimento",
     desc: "Redução de ruído operacional e melhoria de experiência do usuário final.",
     details: [
-      "Em um projeto com alto volume de chamados corretivos, o processo de atendimento era manual e pouco estruturado. As solicitações eram abertas por e-mail, frequentemente com informações incompletas, o que dificultava a análise dos problemas, aumentava o tempo de resolução e gerava insatisfação dos usuários.",
+      "Gerenciava um cenário crítico onde o suporte aos usuários dependia de um processo manual via e-mail. A ausência de padronização nas solicitações resultava em dados incompletos, dificultando o diagnóstico, elevando o tempo de resolução e impactando negativamente a satisfação dos usuários e a eficiência do time.",
+      "O objetivo era eliminar os gargalos operacionais, estruturar a governança do suporte e reduzir drasticamente o tempo médio de atendimento, mantendo a qualidade técnica exigida em ambientes públicos.",
+      "Atuando como Product Owner conduzi um diagnóstico profundo dos fluxos existentes. Implementei uma Central de Atendimento padronizada, estabelecendo requisitos obrigatórios para a abertura de chamados e redesenhando o fluxo de triagem, priorização e resolução técnica. Como resultado:",
+      "Eficiência: Redução de 70% no volume de chamados incompletos.",
+      "Agilidade: Diminuição de 90% no tempo médio de atendimento.",
+      "Gestão: Implementação de relatórios estruturados, conferindo total visibilidade estratégica sobre as demandas.",
+      "Reconhecimento: A entrega foi premiada internamente com o selo \"Hall of Fame\" pela excelência e impacto positivo na experiência do usuário e na produtividade operacional.",
     ],
   },
   {
