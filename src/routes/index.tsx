@@ -491,7 +491,7 @@ function Portfolio() {
             <em className="text-accent not-italic">execução precisa.</em>
           </h2>
           <p className="mt-8 text-lg text-muted-foreground max-w-2xl">
-            Aberta a oportunidades em produto digital, GovTech e ambientes regulados.
+            Aberta a oportunidades em produto digital
           </p>
 
           <div className="mt-12 flex flex-wrap gap-4">
