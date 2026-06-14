@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -73,6 +74,11 @@ const projects = [
     tag: "Infraestrutura Pública",
     title: "Sistemas de Licitações",
     desc: "Entrega de sistemas críticos com regras legais complexas e múltiplas integrações estaduais.",
+    details: [
+      "Desafios do projeto incluíam prazo fixo para entrada em produção, necessidade de rápida compreensão da Lei 8.666 e alinhamento entre múltiplos stakeholders com diferentes expectativas. Além disso, havia a complexidade de mapear integrações com outros sistemas do estado e garantir consistência das informações.",
+      "Para lidar com esse cenário, atuei na organização e priorização das demandas, estruturação clara dos requisitos e alinhamento contínuo com stakeholders e equipe técnica, garantindo entendimento comum e foco nas entregas críticas.",
+      "Como resultado, o projeto foi conduzido dentro do prazo previsto, com aderência às regras legais e integração com sistemas essenciais, assegurando a entrega do produto conforme as necessidades do cliente.",
+    ],
   },
   {
     tag: "Mobile · Fiscalização",
@@ -140,6 +146,7 @@ const aiUses = [
 ];
 
 function Portfolio() {
+  const [expandedProject, setExpandedProject] = useState<string | null>(null);
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       {/* NAV */}
@@ -320,27 +327,44 @@ function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {projects.map((p, i) => (
-              <article
-                key={p.title}
-                className={`bg-card p-8 md:p-10 rounded-sm border border-border hover:border-accent transition-colors group ${
-                  i === 0 ? "md:col-span-2" : ""
-                }`}
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <span className="font-mono text-xs uppercase tracking-wider text-accent">
-                    {p.tag}
-                  </span>
-                  <span className="font-mono text-xs text-muted-foreground">
-                    {String(i + 1).padStart(2, "0")} / 05
-                  </span>
-                </div>
-                <h3 className="font-display text-2xl md:text-3xl mb-4 group-hover:text-accent transition-colors">
-                  {p.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">{p.desc}</p>
-              </article>
-            ))}
+            {projects.map((p, i) => {
+              const isExpandable = Boolean((p as any).details);
+              const isOpen = expandedProject === p.title;
+              return (
+                <article
+                  key={p.title}
+                  onClick={() => isExpandable && setExpandedProject(isOpen ? null : p.title)}
+                  className={`bg-card p-8 md:p-10 rounded-sm border border-border hover:border-accent transition-colors group ${
+                    i === 0 ? "md:col-span-2" : ""
+                  } ${isExpandable ? "cursor-pointer" : ""}`}
+                >
+                  <div className="flex items-center justify-between mb-6">
+                    <span className="font-mono text-xs uppercase tracking-wider text-accent">
+                      {p.tag}
+                    </span>
+                    <span className="font-mono text-xs text-muted-foreground">
+                      {String(i + 1).padStart(2, "0")} / 05
+                    </span>
+                  </div>
+                  <h3 className="font-display text-2xl md:text-3xl mb-4 group-hover:text-accent transition-colors">
+                    {p.title}
+                    {isExpandable && (
+                      <span className="ml-3 text-accent text-base align-middle">
+                        {isOpen ? "−" : "+"}
+                      </span>
+                    )}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">{p.desc}</p>
+                  {isExpandable && isOpen && (
+                    <div className="mt-6 pt-6 border-t border-border space-y-4 text-muted-foreground leading-relaxed">
+                      {(p as any).details.map((d: string, idx: number) => (
+                        <p key={idx}>{d}</p>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              );
+            })}
           </div>
 
           {/* impact bullets */}
