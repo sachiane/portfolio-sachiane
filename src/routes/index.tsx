@@ -315,7 +315,7 @@ function Portfolio() {
               ◦ 04 — Projetos
             </div>
             <h2 className="font-display text-4xl md:text-5xl max-w-3xl">
-              Seleção de <em className="text-accent not-italic">impacto</em>
+              Principais <em className="text-accent not-italic">projetos</em>
             </h2>
           </div>
 
