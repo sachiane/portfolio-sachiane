@@ -84,6 +84,11 @@ const projects = [
     tag: "Mobile · Fiscalização",
     title: "App de Fiscalização Rodoviária",
     desc: "Digitalização de processo manual, aumentando eficiência operacional e rastreabilidade.",
+    details: [
+      "O projeto consistia na construção de um sistema e aplicativo de fiscalização rodoviária do zero, com prazo definido para entrada em produção e alta complexidade regulatória. Era necessário compreender as regras do domínio, incluindo legislação aplicável, além de garantir o alinhamento entre diferentes stakeholders e a integração com sistemas existentes do estado.",
+      "Atuei na condução do entendimento do produto, realizando o levantamento e refinamento de requisitos junto aos stakeholders e apoiando a tradução das necessidades de negócio para o time técnico. Estruturei e priorizei o backlog, garantindo clareza das entregas e organização do escopo. Também conduzi o mapeamento das integrações necessárias com outros sistemas do estado e realizei o repasse estruturado das informações para o time de desenvolvimento, acompanhando o ciclo de entrega.",
+      "O sistema e aplicativo foram estruturados e entregues conforme o cronograma definido, atendendo às necessidades do cliente e às regras do domínio regulatório. A solução permitiu a digitalização e suporte ao processo de fiscalização rodoviária, contribuindo para maior organização, rastreabilidade e eficiência operacional.",
+    ],
   },
   {
     tag: "Suporte · Atendimento",
