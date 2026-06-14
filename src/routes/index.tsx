@@ -108,6 +108,12 @@ const projects = [
     tag: "Dados Abertos",
     title: "Mapa da Transparência do Estado",
     desc: "Plataforma pública de dados de obras com foco em transparência e controle social.",
+    details: [
+      "O projeto consistia no desenvolvimento de uma solução de transparência pública para o estado, com o objetivo de centralizar e disponibilizar informações sobre obras executadas em diferentes órgãos governamentais. O desafio era tornar essas informações acessíveis ao cidadão, incluindo dados como prazos, valores e andamento das obras, em um contexto de alta complexidade e integração entre sistemas.",
+      "Atuei no levantamento e refinamento de requisitos junto aos stakeholders, apoiando a definição das regras de negócio e o entendimento das informações que deveriam compor a solução.",
+      "Conduzi o alinhamento entre áreas técnicas e de negócio, garantindo que os dados provenientes de diferentes sistemas e órgãos fossem estruturados de forma consistente. Também apoiei o time na priorização das entregas e na definição do escopo funcional do produto.",
+      "Foi entregue o Mapa da Transparência do Estado, consolidando informações de obras públicas em uma única plataforma. A solução aumentou a visibilidade e o acesso do cidadão às informações sobre investimentos públicos, promovendo maior transparência, controle social e integração entre sistemas governamentais.",
+    ],
   },
   {
     tag: "Search · BI",
