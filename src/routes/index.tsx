@@ -370,7 +370,7 @@ function Portfolio() {
           <div className="font-mono text-xs uppercase tracking-[0.2em] text-accent mb-4">
             ◦ 05 — Recomendações
           </div>
-          <h2 className="font-display text-4xl md:text-5xl">Prova social</h2>
+          <h2 className="font-display text-4xl md:text-5xl">Recomendações</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
