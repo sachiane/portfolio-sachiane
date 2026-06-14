@@ -226,7 +226,7 @@ function Portfolio() {
               ◦ 01 — Sobre
             </div>
             <h2 className="font-display text-4xl md:text-5xl leading-tight">
-              Resumo executivo
+              Sobre mim
             </h2>
           </div>
           <div className="md:col-span-8 space-y-6 text-lg leading-relaxed">
