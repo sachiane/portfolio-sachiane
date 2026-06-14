@@ -89,6 +89,9 @@ const projects = [
     tag: "Suporte · Atendimento",
     title: "Central de Atendimento",
     desc: "Redução de ruído operacional e melhoria de experiência do usuário final.",
+    details: [
+      "Em um projeto com alto volume de chamados corretivos, o processo de atendimento era manual e pouco estruturado. As solicitações eram abertas por e-mail, frequentemente com informações incompletas, o que dificultava a análise dos problemas, aumentava o tempo de resolução e gerava insatisfação dos usuários.",
+    ],
   },
   {
     tag: "Dados Abertos",
