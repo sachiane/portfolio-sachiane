@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
+import fotoProfissional from "@/assets/foto_profissional.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -263,6 +264,11 @@ function Portfolio() {
             <h2 className="font-display text-4xl md:text-5xl leading-tight">
               Sobre mim
             </h2>
+            <img
+              src={fotoProfissional.url}
+              alt="Sachiane Ghignatti, Product Owner"
+              className="mt-8 w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border border-border"
+            />
           </div>
           <div className="md:col-span-8 space-y-6 text-lg leading-relaxed">
             <p>
