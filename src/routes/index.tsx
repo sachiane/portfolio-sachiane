@@ -117,7 +117,7 @@ const projects = [
     ],
   },
   {
-    tag: "Search · BI",
+    tag: "GovTech · Power BI · Discovery · Especificação · Dados",
     title: "Tribunal de Justiça Estadual — Busca e Inteligência Analítica",
     desc: "Modernização de busca de processos e criação de dashboards executivos.",
     details: [
