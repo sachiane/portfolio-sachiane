@@ -72,15 +72,21 @@ const howIWork = [
 
 const projects = [
   {
-    tag: "Infraestrutura Pública",
+    tag: "GovTech · Infraestrutura Pública · Discovery · Integrações",
     title: "Sistemas de Licitações",
     desc: "Entrega de sistema crítico com regras legais complexas e múltiplas integrações",
     details: [
-      "Desafios do projeto incluíam prazo fixo para entrada em produção, necessidade de rápida compreensão da Lei 8.666 e alinhamento entre múltiplos stakeholders com diferentes expectativas. Além disso, havia a complexidade de mapear integrações com outros sistemas do estado e garantir consistência das informações.",
-      "Para lidar com esse cenário, atuei na organização e priorização das demandas, estruturação clara dos requisitos e alinhamento contínuo com stakeholders e equipe técnica, garantindo entendimento comum e foco nas entregas críticas.",
-      "Como resultado, o projeto foi conduzido dentro do prazo previsto, com aderência às regras legais e integração com sistemas essenciais, assegurando a entrega do produto conforme as necessidades do cliente.",
+      "Contexto",
+      "Sistema público de licitações para um Departamento de Infraestrutura Estadual, com integrações críticas aos sistemas de orçamentos, contratos e financeiro do estado. O projeto estava em andamento quando assumi como Analista de Negócios pela primeira vez na carreira.",
+      "O problema",
+      "O sistema havia chegado com um workflow padrão da empresa. O analista anterior decidiu removê-lo, o que travou o funcionamento completo: não era possível avançar entre telas, concluir cadastros ou realizar pedidos. O sistema estava inutilizável. Ao mesmo tempo, eu não tinha conhecimento prévio da Lei 8.666 nem do domínio de licitações públicas.",
+      "O que fiz",
+      "Aprendi o domínio do zero: estudei a Lei 8.666, entendi como o processo licitatório deveria funcionar e mapeei o que o cliente precisava. Com esse entendimento, conduzi o realinhamento completo junto à equipe de desenvolvimento, reconstruindo todos os fluxos do sistema do início. Também mapeei e especifiquei as integrações necessárias com os sistemas de orçamentos, contratos e financeiro do estado, garantindo consistência entre as plataformas.",
+      "Resultado",
+      "O sistema foi recuperado e entregue funcionando, com fluxos aderentes à legislação e integrado aos sistemas estratégicos do estado. Foi meu primeiro projeto como Analista de Negócios e me ensinou que entender o domínio profundamente é inegociável para entregar produto com qualidade.",
     ],
   },
+
   {
     tag: "Mobile · Fiscalização",
     title: "App de Fiscalização Rodoviária",
