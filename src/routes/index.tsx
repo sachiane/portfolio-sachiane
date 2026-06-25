@@ -112,15 +112,20 @@ const projects = [
     ],
   },
   {
-    tag: "Dados Abertos",
+    tag: "GovTech · Dados Abertos · Integrações · Transparência Pública",
     title: "Mapa da Transparência do Estado",
     desc: "Plataforma pública de dados de obras com foco em transparência e controle social.",
     details: [
-      "O projeto consistia no desenvolvimento de uma solução de transparência pública para o estado, com o objetivo de centralizar e disponibilizar informações sobre obras executadas em diferentes órgãos governamentais. O desafio era tornar essas informações acessíveis ao cidadão, incluindo dados como prazos, valores e andamento das obras, em um contexto de alta complexidade e integração entre sistemas.",
-      "Atuei no levantamento e refinamento de requisitos junto aos stakeholders, apoiando a definição das regras de negócio e o entendimento das informações que deveriam compor a solução.",
-      "Conduzi o alinhamento entre áreas técnicas e de negócio, garantindo que os dados provenientes de diferentes sistemas e órgãos fossem estruturados de forma consistente. Também apoiei o time na priorização das entregas e na definição do escopo funcional do produto.",
-      "Foi entregue o Mapa da Transparência do Estado, consolidando informações de obras públicas em uma única plataforma. A solução aumentou a visibilidade e o acesso do cidadão às informações sobre investimentos públicos, promovendo maior transparência, controle social e integração entre sistemas governamentais.",
+      "Contexto",
+      "O estado possuía um Mapa de Obras públicas com tecnologia defasada e informações limitadas. O cliente decidiu construir uma nova solução, modernizando a tecnologia e ampliando a visibilidade sobre os investimentos públicos em infraestrutura para o cidadão.",
+      "O problema",
+      "O mapa anterior não distinguia tipos de obra, não exibia informações financeiras e operava com tecnologia que não comportava a evolução necessária. Era preciso construir do zero, integrando com o SIGEF, sistema financeiro do estado, e estruturando dados vindos de fontes distintas de forma consistente e acessível ao público.",
+      "O que fiz",
+      "Levantei e refinei os requisitos junto aos stakeholders, entendendo quais informações financeiras poderiam ser expostas publicamente. Identifiquei uma oportunidade de organização que o mapa anterior não explorava: separar obras novas de obras de manutenção, criando duas frentes de visualização distintas. Conduzi o alinhamento entre áreas técnicas e de negócio para garantir que os dados do SIGEF fossem integrados com consistência e apoiei a priorização do escopo junto ao time.",
+      "Resultado",
+      "Foi construído e entregue um novo Mapa da Transparência, com tecnologia atualizada e informações financeiras integradas, apresentando pela primeira vez obras novas e de manutenção separadamente. O cidadão passou a ter acesso mais claro e detalhado sobre os investimentos públicos do estado.",
     ],
+
   },
   {
     tag: "GovTech · Power BI · Discovery · Especificação · Dados",
