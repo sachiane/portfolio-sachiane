@@ -118,7 +118,7 @@ const projects = [
   },
   {
     tag: "Search · BI",
-    title: "Busca + Dashboards Analíticos",
+    title: "Tribunal de Justiça Estadual — Busca e Inteligência Analítica",
     desc: "Modernização de busca de processos e criação de dashboards executivos.",
     details: [
       "Em um projeto de sistema de gestão de processos digitais, o cliente solicitou a melhoria da funcionalidade de busca de processos judiciais e a criação de dashboards para apoio à tomada de decisão, incluindo suporte a apresentações para a alta gestão.",
