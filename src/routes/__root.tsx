@@ -73,22 +73,22 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
+ head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Product Compass is a professional portfolio page showcasing Sachiane Ghignatti de Freitas's expertise as a Product Owner." },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Product Compass is a professional portfolio page showcasing Sachiane Ghignatti de Freitas's expertise as a Product Owner." },
+      { title: "Sachiane Ghignatti — Product Owner | GovTech | CSPO®" },
+      { name: "description", content: "Product Owner com 17 anos de experiência em GovTech, sistemas críticos e produtos regulados." },
+      { name: "author", content: "Sachiane Ghignatti" },
+      { property: "og:title", content: "Sachiane Ghignatti — Product Owner | GovTech" },
+      { property: "og:description", content: "PO especializada em produtos públicos, integrações críticas e ambientes regulados." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
-      { name: "twitter:description", content: "Product Compass is a professional portfolio page showcasing Sachiane Ghignatti de Freitas's expertise as a Product Owner." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/42a03ce7-4b53-4aa9-980a-d059d6c63ac4/id-preview-c10dda51--99f1a670-d94d-4923-a938-4674c60c72f5.lovable.app-1781463658942.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/42a03ce7-4b53-4aa9-980a-d059d6c63ac4/id-preview-c10dda51--99f1a670-d94d-4923-a938-4674c60c72f5.lovable.app-1781463658942.png" },
+      { property: "og:url", content: "https://portfoliosachiane.netlify.app/" },
+      { property: "og:image", content: "https://portfoliosachiane.netlify.app/foto_profissional.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Sachiane Ghignatti — Product Owner | GovTech" },
+      { name: "twitter:description", content: "Product Owner com 17 anos de experiência em GovTech e sistemas críticos." },
+      { name: "twitter:image", content: "https://portfoliosachiane.netlify.app/foto_profissional.png" },
     ],
     links: [
       {
